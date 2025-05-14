@@ -1,50 +1,52 @@
-# Welcome to your Expo app 👋
+# 🎉 StickerSmash
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+StickerSmash is a mobile app built with React Native and Expo as part of a learning tutorial. It allows users to pick an image from their gallery or take a photo, and then add fun stickers on top of it.
 
-## Get started
+## 📱 Screenshots
 
-1. Install dependencies
+_WIP_
 
-   ```bash
-   npm install
-   ```
+## 🚀 Technologies Used
 
-2. Start the app
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [React Navigation](https://reactnavigation.org/)
+- [Expo Image Picker](https://docs.expo.dev/versions/latest/sdk/imagepicker/)
+- [Expo Media Library](https://docs.expo.dev/versions/latest/sdk/media-library/)
+- [React Native Gesture Handler](https://docs.swmansion.com/react-native-gesture-handler/)
 
-   ```bash
-   npx expo start
-   ```
+## 🧰 Features
 
-In the output, you'll find options to open the app in a
+- Pick an image from the camera or media library
+- Add stickers on top of the image
+- Move and rotate stickers using gestures
+- Save the final image to the gallery
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🛠️ Installation
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+1. Clone the repository:
 
 ```bash
-npm run reset-project
+git clone https://github.com/JalilManuel23/stickersmash.git
+cd stickersmash
+```
+2. Install the dependencies:
+```
+npm install
+```
+3. Run the app
+```
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 📦 Available Scripts
+npm start – Starts the Expo development server
 
-## Learn more
+npm run android – Runs the app on an Android emulator
 
-To learn more about developing your project with Expo, look at the following resources:
+npm run ios – Runs the app on an iOS simulator (macOS only)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 📚 Based On
+This project was built by following the official Expo tutorial:
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+📖 [Build a Sticker App with React Native and Expo](https://docs.expo.dev/tutorial/introduction/)
